@@ -1,0 +1,113 @@
+/* 布料與洗標小百科：全站共用樣式。規則見 CLAUDE.md「視覺風格」 */
+:root {
+  --bg: #faf7f2;          /* 米白底，像未漂白的胚布 */
+  --surface: #ffffff;
+  --ink: #2b2b2b;
+  --muted: #6b6560;
+  --line: #e6dfd5;
+  --accent: #8a5a44;      /* 主色：駝色 */
+  --accent-soft: #f3e9e2;
+  --fabric: #5b7f6a;      /* 分類色：布料 */
+  --care: #4a6fa5;        /* 分類色：洗標 */
+  --rules: #a0642e;       /* 分類色：標示法規 */
+  --radius: 14px;
+  --font: "Noto Sans TC", "Microsoft JhengHei", "PingFang TC", sans-serif;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  line-height: 1.8;
+}
+a { color: var(--accent); }
+
+.wrap { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+
+/* 頂部導覽 */
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+}
+.site-header .wrap {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; padding-top: 14px; padding-bottom: 14px; flex-wrap: wrap;
+}
+.logo { font-weight: 700; font-size: 1.15rem; color: var(--ink); text-decoration: none; }
+.logo span { color: var(--accent); }
+.nav a { margin-left: 14px; text-decoration: none; color: var(--muted); font-size: .95rem; }
+.nav a:hover { color: var(--accent); }
+
+/* 首頁 */
+.hero { padding: 44px 0 20px; }
+.hero h1 { font-size: 2rem; margin: 0 0 8px; }
+.hero p { color: var(--muted); margin: 0; }
+
+.toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin: 20px 0; }
+.toolbar button {
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  padding: 6px 14px; border-radius: 999px; cursor: pointer; font: inherit; font-size: .9rem;
+}
+.toolbar button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.toolbar input {
+  flex: 1; min-width: 160px; border: 1px solid var(--line); border-radius: 999px;
+  padding: 6px 14px; font: inherit; font-size: .9rem; background: var(--surface);
+}
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; padding-bottom: 48px; }
+.card {
+  display: block; background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 16px 18px; text-decoration: none; color: var(--ink);
+  transition: transform .15s, box-shadow .15s;
+}
+.card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.06); }
+.card h3 { margin: 6px 0 4px; font-size: 1.1rem; }
+.card p { margin: 0; color: var(--muted); font-size: .9rem; line-height: 1.6; }
+
+/* 分類標籤 */
+.tag {
+  display: inline-block; font-size: .75rem; padding: 1px 10px; border-radius: 999px;
+  color: #fff; background: var(--muted);
+}
+.tag.fabrics { background: var(--fabric); }
+.tag.care { background: var(--care); }
+.tag.rules { background: var(--rules); }
+
+/* 內容頁 */
+.crumb { font-size: .85rem; color: var(--muted); margin: 24px 0 4px; }
+.crumb a { color: var(--muted); }
+article h1 { font-size: 1.9rem; margin: 6px 0 2px; }
+article .en { color: var(--muted); margin: 0 0 18px; }
+article h2 {
+  font-size: 1.2rem; margin: 32px 0 10px; padding-left: 10px;
+  border-left: 4px solid var(--accent);
+}
+.keypoint {
+  background: var(--accent-soft); border-radius: var(--radius);
+  padding: 14px 18px; margin: 16px 0;
+}
+.keypoint strong { color: var(--accent); }
+.symbol {
+  display: flex; gap: 16px; align-items: center; background: var(--surface);
+  border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; margin: 10px 0;
+}
+.symbol svg { flex: 0 0 64px; width: 64px; height: 64px; }
+.symbol p { margin: 0; }
+table { width: 100%; border-collapse: collapse; background: var(--surface); margin: 10px 0; }
+th, td { border: 1px solid var(--line); padding: 8px 12px; text-align: left; vertical-align: top; }
+th { background: var(--accent-soft); width: 28%; }
+.source { font-size: .85rem; color: var(--muted); }
+.related a { margin-right: 12px; }
+
+.site-footer {
+  border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem;
+  padding: 18px 0 32px; margin-top: 40px;
+}
+
+@media (max-width: 520px) {
+  .hero h1 { font-size: 1.6rem; }
+  th { width: 34%; }
+  .nav a { margin-left: 10px; }
+}

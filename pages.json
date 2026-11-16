@@ -1,0 +1,195 @@
+[
+  {
+    "title": "棉",
+    "en": "Cotton",
+    "icon": "🌱",
+    "category": "fabrics",
+    "path": "pages/fabrics/cotton.html",
+    "summary": "吸濕透氣又親膚，是最常見的天然纖維，但容易皺也容易縮水。",
+    "keywords": [
+      "棉",
+      "純棉",
+      "T恤",
+      "植物纖維"
+    ]
+  },
+  {
+    "title": "羊毛",
+    "en": "Wool",
+    "icon": "🐑",
+    "category": "fabrics",
+    "path": "pages/fabrics/wool.html",
+    "summary": "保暖、有彈性又抗皺，但怕熱水和搓揉，洗錯會氈化縮水。",
+    "keywords": [
+      "羊毛",
+      "純羊毛",
+      "毛衣",
+      "大衣",
+      "動物纖維",
+      "喀什米爾"
+    ]
+  },
+  {
+    "title": "聚酯纖維",
+    "en": "Polyester",
+    "icon": "🧪",
+    "category": "fabrics",
+    "path": "pages/fabrics/polyester.html",
+    "summary": "強度高、不易皺又快乾的人造纖維，但不吸濕、容易悶熱和起靜電。",
+    "keywords": [
+      "聚酯纖維",
+      "聚酯",
+      "滌綸",
+      "polyester",
+      "人造纖維",
+      "運動服"
+    ]
+  },
+  {
+    "title": "亞麻",
+    "en": "Flax / Linen",
+    "icon": "🌾",
+    "category": "fabrics",
+    "path": "pages/fabrics/linen.html",
+    "summary": "透氣涼爽、越洗越軟的天然纖維，最大缺點是非常容易皺。",
+    "keywords": [
+      "亞麻",
+      "麻",
+      "linen",
+      "flax",
+      "夏天",
+      "植物纖維"
+    ]
+  },
+  {
+    "title": "水洗符號",
+    "en": "Washing",
+    "icon": "🫧",
+    "category": "care",
+    "path": "pages/care/washing.html",
+    "summary": "洗衣盆代表可以水洗；數字是最高水溫，下方橫槓越多代表要洗得越輕柔。",
+    "keywords": [
+      "水洗",
+      "洗衣盆",
+      "手洗",
+      "水溫",
+      "洗標"
+    ]
+  },
+  {
+    "title": "漂白符號",
+    "en": "Bleaching",
+    "icon": "🔺",
+    "category": "care",
+    "path": "pages/care/bleaching.html",
+    "summary": "三角形代表漂白：空白可用任何漂白劑，有兩條斜線只能用含氧漂白劑，打叉不可漂白。",
+    "keywords": [
+      "漂白",
+      "三角形",
+      "含氧漂白",
+      "氯",
+      "洗標"
+    ]
+  },
+  {
+    "title": "乾燥符號",
+    "en": "Drying",
+    "icon": "☀️",
+    "category": "care",
+    "path": "pages/care/drying.html",
+    "summary": "方形代表乾燥：方形裡有圓是烘衣機，裡面的線代表自然晾乾的方式。",
+    "keywords": [
+      "乾燥",
+      "烘乾",
+      "晾乾",
+      "平攤",
+      "陰乾",
+      "方形",
+      "洗標"
+    ]
+  },
+  {
+    "title": "熨燙符號",
+    "en": "Ironing",
+    "icon": "♨️",
+    "category": "care",
+    "path": "pages/care/ironing.html",
+    "summary": "熨斗裡的點越多，可以用的溫度越高：三點 200 度、兩點 150 度、一點 110 度且不能用蒸氣。",
+    "keywords": [
+      "熨燙",
+      "熨斗",
+      "燙衣服",
+      "溫度",
+      "蒸氣",
+      "洗標"
+    ]
+  },
+  {
+    "title": "專業乾洗與濕洗",
+    "en": "Professional Textile Care",
+    "icon": "🧥",
+    "category": "care",
+    "path": "pages/care/professional.html",
+    "summary": "圓形代表交給專業洗衣店：P、F 是乾洗溶劑的種類，W 是專業濕洗。",
+    "keywords": [
+      "乾洗",
+      "濕洗",
+      "洗衣店",
+      "圓形",
+      "P",
+      "F",
+      "W",
+      "洗標"
+    ]
+  },
+  {
+    "title": "衣服一定要標示的五件事",
+    "en": "Mandatory Labeling Items",
+    "icon": "🏷️",
+    "category": "rules",
+    "path": "pages/rules/five-labels.html",
+    "summary": "依規定，衣服要標示：廠商資料、原產地、纖維成分、尺寸、洗燙方法。",
+    "keywords": [
+      "標示",
+      "法規",
+      "原產地",
+      "成分",
+      "尺寸",
+      "洗燙",
+      "吊牌"
+    ]
+  },
+  {
+    "title": "纖維成分怎麼標",
+    "en": "Fiber Content Labeling",
+    "icon": "📏",
+    "category": "rules",
+    "path": "pages/rules/fiber-content.html",
+    "summary": "含量 5% 以上的纖維都要標名稱和重量百分比，誤差在上下 3% 以內，標 100% 則不能有誤差。",
+    "keywords": [
+      "成分",
+      "百分比",
+      "純",
+      "羽絨",
+      "回收",
+      "混紡",
+      "法規"
+    ]
+  },
+  {
+    "title": "尼龍",
+    "en": "Nylon / Polyamide",
+    "icon": "🧵",
+    "category": "fabrics",
+    "path": "pages/fabrics/nylon.html",
+    "summary": "非常耐磨、強韌又輕的人造纖維，常用在機能服和襪子，但怕高溫、吸濕性差。",
+    "keywords": [
+      "尼龍",
+      "聚醯胺纖維",
+      "nylon",
+      "polyamide",
+      "人造纖維",
+      "機能服"
+    ]
+  }
+]

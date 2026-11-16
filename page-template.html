@@ -1,0 +1,54 @@
+<!doctype html>
+<!--
+  新頁面範本。複製到 pages/<分類>/<英文檔名>.html 後，把所有 {{...}} 換掉。
+  分類只能是：fabrics（布料）／care（洗標）／rules（標示法規）。
+  「固定段落」依分類不同，請照 CLAUDE.md 的「各分類固定段落」填寫，不可增減段落標題。
+-->
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{標題}}｜布料與洗標小百科</title>
+  <meta name="description" content="{{一句話重點}}">
+  <link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="../../index.html">布料與<span>洗標</span>小百科</a>
+      <nav class="nav">
+        <a href="../../index.html#fabrics">布料</a>
+        <a href="../../index.html#care">洗標</a>
+        <a href="../../index.html#rules">標示法規</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article>
+      <p class="crumb"><a href="../../index.html">首頁</a> › <a href="../../index.html#{{分類代碼}}">{{分類名稱}}</a> › {{標題}}</p>
+      <span class="tag {{分類代碼}}">{{分類名稱}}</span>
+      <h1>{{icon}} {{標題}}</h1>
+      <p class="en">{{英文名稱}}</p>
+      <div class="keypoint"><strong>一句話重點：</strong>{{一句話重點}}</div>
+
+      <!-- ===== 固定段落開始（依分類，見 CLAUDE.md） ===== -->
+      {{固定段落}}
+      <!-- ===== 固定段落結束 ===== -->
+
+      <h2>資料來源</h2>
+      <p class="source">{{資料來源}}</p>
+
+      <h2>相關頁面</h2>
+      <p class="related">{{2～4 個相關頁面連結}}</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      資料整理自經濟部標準檢驗局〈服飾標示基準〉與纖維成分例示表；布料特性為一般常識，實際保養請以衣服上的洗標為準。<br>
+      實踐大學 服裝設計學系 陸宥辰｜TAICA 生成式 AI 第九週作業
+    </div>
+  </footer>
+</body>
+</html>
